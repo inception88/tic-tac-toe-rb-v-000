@@ -11,6 +11,7 @@ def input_to_index(user_input)
   user_input = user_input - 1
 end
 
+#The move function places the X or O in the board array in the index position
 def move(array,index,token)
   array[index] = token
 end
